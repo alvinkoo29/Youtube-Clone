@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/general.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class = "header">
+      <div class = "header-left">
+        <img class = "hamburger-menu" src="icons/hamburger-menu.svg" alt="menu">
+        <img class = "youtube-logo" src="icons/youtube-logo.svg" alt="youtube logo">
+      </div>
+      <div class = "header-mid">
+        <input class ="search-bar" type="text" placeholder="Search">
+        <button class = "search-button">
+          <img class = "search" src="icons/search.svg" alt="search">
+          <div class = "tooltip">Search</div>
+        </button>
+        <button class ="voice-button">
+          <img class ="voice-search" src="icons/voice-search-icon.svg" alt="voice search">
+          <div class = "tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class = "header-right">
+        <button class = "upload-button">
+          <img class = "upload" src="icons/create.svg" alt="upload">
+          <div class = "tooltip">Create</div>
+        </button>
+        <button class = "apps-button">
+          <img class = "apps" src="icons/youtube-apps.svg" alt="other youtube apps">
+          <div class = "tooltip">Apps</div>
+        </button>
+        <button class = "notifications-button">
+          <img class = "notifications" src="icons/notifications.svg" alt="notifications">
+          <div class = "notifications-count">3</div>
+          <div class = "tooltip">Notifications</div>
+        </button>
+        <img class = "my-profile"src="images/profile-mine.jpg" alt="my profile">
+      </div>
+    </header>
+
+    <nav class = "sidebar">
+      <div class = "sidebar-link">
+        <img src="icons/home.svg" alt="home">
+        <p>Home</p>
+        <div class = "tooltip">Home</div>
+      </div>
+      <div class = "sidebar-link">
+        <img src="icons/explore.svg" alt="home">
+        <p>Explore</p>
+        <div class = "tooltip">Explore</div>
+      </div>
+      <div class = "sidebar-link">
+        <img src="icons/subscriptions.svg" alt="home">
+        <p>Subscriptions</p>
+        <div class = "tooltip">Subscriptions</div>
+      </div>
+      <div class = "sidebar-link">
+        <img src="icons/originals.svg" alt="home">
+        <p>Originals</p>
+        <div class = "tooltip">Originals</div>
+      </div>
+      <div class = "sidebar-link">
+        <img src="icons/youtube-music.svg" alt="home">
+        <p>Youtube Music</p>
+        <div class = "tooltip">Youtube Music</div>
+      </div>
+      <div class = "sidebar-link">
+        <img src="icons/library.svg" alt="home">
+        <p>Library</p>
+        <div class = "tooltip">Library</div>
+      </div>
+    </nav>
+
+    <main class = "dashboard">
+      <div class = "video-preview">
+        <div class = "top-container">
+          <a href="https://www.youtube.com/watch?v=50VNCymT-Cs">
+            <img class = "thumbnail" src="images/thumbnail-1.jpg" alt="thumbnail">
+            <div class = "video-time">2.57</div>
+          </a>
+        </div>
+        <div class = "bottom-container">
+          <div class = "channel-pic">
+            <a href="https://www.youtube.com/channel/UCtWBCzqucZXq0M8jsqunM0g">
+              <img  class = "profile-pic" src="images/profile-1.jpg" alt="profile picture">
+            </a>
+            <div class = "channel-summary">
+              <img  class = "profile-pic" src="images/profile-1.jpg" alt="profile picture">
+              <p class ="video-author">Alec Benjamin</p>
+              <p class = "video-subscibers">4.7M subscribers</p>
+            </div>
+          </div>
+          <div class = "video-info">
+            <a href="https://www.youtube.com/watch?v=50VNCymT-Cs">
+              <p class ="video-title">Alec Benjamin - Let Me Down Slowly (Official Music Video)</p>
+            </a>
+            <a href="https://www.youtube.com/channel/UCtWBCzqucZXq0M8jsqunM0g">
+              <p class ="video-author">Alec Benjamin</p>
+            </a>
+            <p class ="video-stats">415M views &#183; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class = "video-preview">
+        <div class = "top-container">
+          <a href="https://www.youtube.com/watch?v=tA8AfQaUnXM">
+            <img class = "thumbnail" src="images/thumbnail-2.jpg" alt="thumbnail">
+            <div class = "video-time">3.58</div>
+          </a>
+        </div>
+        <div class = "bottom-container">
+          <div class = "channel-pic">
+            <a href="https://www.youtube.com/channel/UCudD8EgOQpI_-2bR8hSeJaQ">
+              <img  class = "profile-pic" src="images/profile-2.jpg" alt="profile picture">
+            </a>
+            <div class = "channel-summary">
+              <img  class = "profile-pic" src="images/profile-2.jpg" alt="profile picture">
+              <p class ="video-author">Ella Henderson</p>
+              <p class = "video-subscibers">628K subscribers</p>
+            </div>
+          </div>
+          <div class = "video-info">
+            <a href="https://www.youtube.com/watch?v=tA8AfQaUnXM">
+              <p class ="video-title">Ella Henderson - Ghost (Official Video)</p>
+            </a>
+            <a href="https://www.youtube.com/channel/UCudD8EgOQpI_-2bR8hSeJaQ">
+              <p class ="video-author">Ella Henderson</p>
+            </a>
+            <p class ="video-stats">108M views &#183; 8 years ago</p>
+            
+          </div>
+        </div>
+      </div>
+  
+      <div class = "video-preview">
+        <div class = "top-container">
+          <a href="https://www.youtube.com/watch?v=Xs0Lxif1u9E">
+            <img class = "thumbnail" src="images/thumbnail-3.jpg" alt="thumbnail">
+            <div class = "video-time">3.57</div>
+          </a>
+        </div>
+        <div class = "bottom-container">
+          <div class = "channel-pic">
+            <a href="https://www.youtube.com/channel/UCIVqvhyo8ttjYOmMJuhq_YQ">
+              <img  class = "profile-pic" src="images/profile-3.jpg" alt="profile picture">
+            </a>
+            <div class = "channel-summary">
+              <img  class = "profile-pic" src="images/profile-3.jpg" alt="profile picture">
+              <p class ="video-author">RADWIMPS</p>
+              <p class = "video-subscibers">2.4M subscribers</p>
+            </div>
+          </div>
+          <div class = "video-info">
+            <a href="https://www.youtube.com/watch?v=Xs0Lxif1u9E">
+              <p class ="video-title">RADWIMPS - すずめ feat.十明 [Official Lyric Video]</p>
+            </a>
+            <a href="https://www.youtube.com/channel/UCIVqvhyo8ttjYOmMJuhq_YQ">
+              <p class ="video-author">RADWIMPS</p>
+            </a>
+            <p class ="video-stats">515k views &#183; 3 days ago</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class = "video-preview">
+        <div class = "top-container">
+          <a href="https://www.youtube.com/watch?v=46fBE4qYBZ0">
+            <img class = "thumbnail" src="images/thumbnail-4.jpg" alt="thumbnail">
+            <div class = "video-time">3.17</div>
+          </a>
+        </div>
+        <div class = "bottom-container">
+          <div class = "channel-pic">
+            <a href="https://www.youtube.com/user/MrSuicideSheep">
+              <img  class = "profile-pic" src="images/profile-4.jpg" alt="profile picture">
+            </a>
+            <div class = "channel-summary">
+              <img  class = "profile-pic" src="images/profile-4.jpg" alt="profile picture">
+              <p class ="video-author">MrSuicideSheep</p>
+              <p class = "video-subscibers">12.8M subscribers</p>
+            </div>
+          </div>
+          <div class = "video-info">
+            <a href="https://www.youtube.com/watch?v=46fBE4qYBZ0">
+              <p class ="video-title">Culture Code - Crying U Out (feat. Dani Poppit)</p>
+            </a>
+            <a href="https://www.youtube.com/user/MrSuicideSheep">
+              <p class ="video-author">MrSuicideSheep</p>
+            </a>
+            <p class ="video-stats">697K views &#183; 4 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class = "video-preview">
+        <div class = "top-container">
+          <a href="https://www.youtube.com/watch?v=23g5HBOg3Ic">
+            <img class = "thumbnail" src="images/thumbnail-5.jpg" alt="thumbnail">
+            <div class = "video-time">4.23</div>
+          </a>
+        </div>
+        <div class = "bottom-container">
+          <div class = "channel-pic">
+            <a href="https://www.youtube.com/channel/UC0C-w0YjGpqDXGB8IHb662A">
+              <img  class = "profile-pic" src="images/profile-5.jpg" alt="profile picture">
+            </a>
+            <div class = "channel-summary">
+              <img  class = "profile-pic" src="images/profile-5.jpg" alt="profile picture">
+              <p class ="video-author">Ed Sheeran</p>
+              <p class = "video-subscibers">52.5M subscribers</p>
+            </div>
+          </div>
+          <div class = "video-info">
+            <a href="https://www.youtube.com/watch?v=23g5HBOg3Ic">
+              <p class ="video-title">Ed Sheeran, Pokémon - Celestial [Official Video]</p>
+            </a>
+            <a href="https://www.youtube.com/channel/UC0C-w0YjGpqDXGB8IHb662A">
+              <p class ="video-author">Ed Sheeren</p>
+            </a>
+            <p class ="video-stats">3.5M views &#183; 2 days ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class = "video-preview">
+        <div class = "top-container">
+          <a href="https://www.youtube.com/watch?v=poZLiypLJzQ">
+            <img class = "thumbnail" src="images/thumbnail-6.jpg" alt="thumbnail">
+            <div class = "video-time">3.58</div>
+          </a>
+        </div>
+        <div class = "bottom-container">
+          <div class = "channel-pic">
+            <a href="https://www.youtube.com/user/riserecords">
+              <img  class = "profile-pic" src="images/profile-6.jpg" alt="profile picture">
+            </a>
+            <div class = "channel-summary">
+              <img  class = "profile-pic" src="images/profile-6.jpg" alt="profile picture">
+              <p class ="video-author">riserecords</p>
+              <p class = "video-subscibers">2.8M subscribers</p>
+            </div>
+          </div>
+          <div class = "video-info">
+            <a href="https://www.youtube.com/watch?v=poZLiypLJzQ">
+              <p class ="video-title">Sleeping With Sirens - If I'm James Dean, You're Audrey...</p>
+            </a>
+            <a href="https://www.youtube.com/user/riserecords">
+              <p class ="video-author">riserecords</p>
+            </a>
+            <p class ="video-stats">61M views &#183; 12 years ago</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
